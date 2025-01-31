@@ -1,0 +1,47 @@
+1. User-Agent: PostmanRuntime/7.43.0  
+   - Identifies the client making the request (Postman version 7.43.0).  
+
+2. Accept: */*  
+   - Informs the server that the client can accept any content type in the response.  
+
+3. Postman-Token: 51112238-10c8-4d7b-a086-97722f256840  
+   - A unique identifier for the request, used by Postman to track requests.  
+
+4. Host: www.googleapis.com  
+   - Specifies the server domain to which the request is being sent (www.googleapis.com).  
+
+5. Accept-Encoding: gzip, deflate, br  
+   - Indicates that the client supports compressed responses (gzip, deflate, or Brotli) to save bandwidth.  
+
+6. Connection: keep-alive  
+   - Keeps the connection open for multiple requests, improving efficiency.  
+
+7. Content-Type: application/json; charset=UTF-8  
+   - Specifies that the response is in JSON format and encoded in UTF-8.  
+
+8. Vary: Origin, X-Origin, Referer  
+   - Indicates that the response may change depending on the `Origin`, `X-Origin`, or `Referer` headers in the request (used for caching and security).  
+
+9. Content-Encoding: gzip  
+   - The response body is compressed using gzip to reduce data size.  
+
+10. Date: Fri, 31 Jan 2025 03:43:57 GMT  
+   - Timestamp indicating when the response was generated.  
+
+11. Server: ESF  
+   - Identifies the server handling the request (Google’s ESF - Edge Security Framework).  
+
+12. X-XSS-Protection: 0  
+   - Disables built-in cross-site scripting (XSS) protection, likely because Google has its own security measures.  
+
+13. X-Frame-Options: SAMEORIGIN  
+   - Prevents the page from being embedded in an iframe on another domain to protect against clickjacking attacks.  
+
+14. X-Content-Type-Options: nosniff  
+   - Prevents browsers from guessing the content type, reducing security risks like MIME-type sniffing attacks.  
+
+15. Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000  
+   - Indicates that the server supports HTTP/3 over port 443 with a max age of 2592000 seconds (30 days).  
+
+16. Transfer-Encoding: chunked  
+    - The response is sent in chunks, meaning the server doesn’t send the full content at once but rather in pieces as they become available.  
